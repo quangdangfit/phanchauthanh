@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('SVN-Poppins.woff')
+}
+@font-face {
+    font-family: "Halant";
+    src: url('Halant-Regular.ttf')
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width:100%;
+    height: 790px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color:#ffffff;
+    font-family: Poppins;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: #181818;
+    padding: 0px 165px;
+    opacity: 0.9;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: lighter;
+}
+nav .active{
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-container p:nth-child(1){
+    font-weight:bold;
+    color:#0177f9;
+    font-size:52px;
+    line-height: 0px;
+    ;
+}
+.text-container p:nth-child(2){
+    font-weight: bold;
+    color:#1a1a1a;
+    font-size:34px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.text-container p:nth-child(3){
+    
+    font-weight: normal;
+    color:#504949;
+    font-size:22px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.text-container{
+    width: 600px;
+    position: absolute;
+    left: 165px;
+    top:25%;
+}
+.text-container button{
+    width: 219px;
+    height: 64px;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size:18px;
+    outline:none;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+.hire-btn{
+    background-color: #ffffff;
+    color: #181818;
+    border:1px solid #181818;
+}
+
+.text-container button:hover{
+    background-color: #0177f9;
+    color: #ffffff;
+    animation-duration: 0.3s;
+    border:none;
+}
+.avatar{
+    height: 392px;
+    position: absolute;
+    right:165px;
+    top: 210px;
+}
+
+/*Case study*/
+
+.case-background {
+    background-color: #fbfbfd;
+    display:flex;
+    font-family: Poppins;
+}
+.case-study {
+    height: 1682px;
+    width: 980px;
+    margin: auto;
+}
+.title {
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 60px;
+    color: #181818;
+    margin:auto;
+}
+
+.case-block{
+    height: 545px;
+    width:980px;
+    display:flex;
+    margin-bottom: 170px;
+}
+.image-case{
+    height: 545px;
+    width: 490px;
+}
+.content-case-right p:nth-child(1){
+    color: #0177F9;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 94px 0px 5px 79px;
+}
+.content-case-right p:nth-child(2){
+    color: #181818;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 5px 0px 5px 79px;
+}
+.content-case-right p:nth-child(3){
+    color: #504949;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 5px 0px 40px 79px;
+}
+.content-case-right button{
+    width: 219px;
+    height: 64px;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size:18px;
+    outline:none;
+    margin: 0px 0px 0px 79px;
+    cursor: pointer;
+    border: none;
+}
+.view-btn{
+    background-color: #0177f9;
+    color: #ffffff;
+}
+
+.content-case-right button:hover{
+    background-color: #0B76EC;
+    color: #ffffff;
+    animation-duration: 0.3s;
+    border:none;
+}
+.content-case-left p:nth-child(1){
+    color: #0177F9;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 94px 79px 5px 0px;
+}
+.content-case-left p:nth-child(2){
+    color: #181818;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 5px 79px 5px 0px;
+}
+.content-case-left p:nth-child(3){
+    color: #504949;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 5px 79px 40px 0px;
+}
+.content-case-left button{
+    width: 219px;
+    height: 64px;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size:18px;
+    outline:none;
+    margin: 0px 79px 0px 0px;
+    cursor: pointer;
+    border: none;
+}
+.content-case-left button:hover{
+    background-color: #0B76EC;
+    color: #ffffff;
+    animation-duration: 0.3s;
+    border:none;
+}
+
+/*My-writing*/
+
+.my-writing {
+    width: 1140px;
+    height: 900px;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+.my-writing .writing-block{
+    display: flex;
+}
+.articleblock {
+    height: 500px;
+    width: 350px;
+    margin: 0px 15px 0px 15px;
+}
+.article-content p:nth-child(1) {
+    font-size: 14px;
+    color: #504949;
+    padding: 2px 8px;
+    border: 1px solid #504949;
+    border-radius: 8px;
+    width: 110px;
+    text-align: center;
+    margin: 10px 0px 8px 0px;
+}
+.article-content p:nth-child(2) {
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 32px;
+    color: #181818;
+    margin: 0px 0px 14px 0px;
+}
+.article-content p:nth-child(3) {
+    font-size: 18px;
+    font-weight: normal;
+    color: #504949;
+    margin: 8px 0px 8px 0px;
+    line-height: 28px;
+}
+
+/*Bottom Navigation*/
+
+.bottom-nav {
+    height: 200px;
+    width:100%;
+    background-color: #181818; 
+    opacity: 0.9;
+}
+.bottom-content{
+    display:flex;
+    width: 1110px;
+    height: 150px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.bottom-content-left{
+    font-family: Halant;
+    font-size:20px;
+    color: #ffffff;
+    width: 555px;
+    padding-top: 30px;
+}
+.bottom-content-right{
+    font-family: Poppins;
+    width:335px;
+    margin-top:30px;
+    
+}
+.bottom-content-right p:nth-child(1){
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.bottom-content-right p:nth-child(2){
+    font-size: 14px;
+    color: #dadada;
+    padding-top: 0px;
+    line-height: 21px;
+}
+.bottom-conent-right-contact span{
+    color:#dadada;
+    font-weight: bold;
+    margin: 10px;
+    line-height: 21px;
+}
+.bottom-conent-right-contact a{
+    color:#dad8d8;
+    font-weight: bolder;
+    font-size:14px;
+    line-height: 21px;
+}
+.bottom-conent-right-contact a:hover{
+    color:#0177F9;
+    font-weight: bolder;
+    font-size:14px;
+    line-height: 21px;
+}
+.copy-right{
+    color:#dadada;
+    font-size:13px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+
